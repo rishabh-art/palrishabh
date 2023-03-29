@@ -2,3 +2,12 @@
 <!--This is a code by palrishabh.com Foundation-->
 <!--No element/section of this website may be copied without permission-->
 <!--Contact help@palrishabh.com for any queries-->
+
+<html>
+  <head>
+    <title>Palrishabh.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
+</html>
