@@ -1,6 +1,8 @@
 .heading{
-  font-family: 'Abril Fatface', cursive; position: relative; text-align: center;
+  font-family: 'Abril Fatface', cursive; position: relative; text-align: center; color: #be4d25;
 }
 .sub{
-font-family: 'Tillana', cursive;
+font-family: 'Tillana', cursive; color: #be4d25;
 }
+
+.heightA{background-color: #2596be;}
