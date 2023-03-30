@@ -5,7 +5,7 @@
 font-family: 'Tillana', cursive; color: #00020d; font-size: 1.5em;
 }
 
-.heightA{background-color: #03f755;}
+.heightA{background-color: #03f755; position: fixed;}
 
 .normalText{color: #00020d; font-family: 'Pangolin', cursive; font-size: 1.2em;}
 .bodyMainContent{background-color: #ED8D5A}
