@@ -5,8 +5,8 @@
 font-family: 'Tillana', cursive; color: #00020d; font-size: 1.5em;
 }
 
-.heightA{background-image: url('mainTitleHomeIMG.jpg');}
+.heightA{background: url('mainTitleHomeIMG.jpg'); background-repeat: no-repeat; background-size: 800px 300px;}
 
-.normalText{color: #00020d; font-family: 'Pangolin', cursive; font-size: 1.2em;}
+.normalText{color: #00020d; font-family: 'Pangolin', cursive; font-size: 1.2em; color: #effdf4;}
 .bodyMainContent{background-color: #ED8D5A}
 h2{font-family: 'Luckiest Guy', cursive; font-size: 1.5em;}
