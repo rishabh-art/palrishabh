@@ -19,9 +19,26 @@
         <li><a href="#">Coding</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">About Us</a></li>
+
+        <li id="search-icon"><i class="fas fa-search"></i></li>
+        <li class="search-bar">
+          <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+          </form>
       </ul>
     </nav>
   </header>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    const searchIcon = document.getElementById('search-icon');
+    const searchBar = document.querySelector('.search-bar');
+
+    searchIcon.addEventListener('click', () => {
+      searchBar.style.display = 'block';
+      searchBar.style.animation = 'slideDown 0.5s ease-in-out forwards';
+    });
+  </script>
   <main>
     <section class="quote">
       <blockquote>
