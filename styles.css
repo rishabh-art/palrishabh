@@ -66,3 +66,22 @@ footer {
   background-color: #333333;
   color: #cccccc;
 }
+.quote {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}
