@@ -3,15 +3,26 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #121212;
     color: #ffffff;
+    margin: 0; /* Remove default margin for body */
   }
   
   header {
     background-color: #292929;
     padding: 10px 0;
+    text-align: center; /* Center-align navigation */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex; /* Display navigation items horizontally */
+    justify-content: center; /* Center-align navigation items */
+    padding: 0;
   }
   
   nav a {
     color: #00adb5;
+    text-decoration: none;
+    padding: 10px 20px;
   }
   
   nav a:hover {
@@ -22,10 +33,23 @@ body {
     padding: 20px;
   }
   
+  .article-block {
+    margin-top: 30px;
+  }
+  
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #00adb5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
   .article {
     background-color: #212121;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 4px;
   }
   
   .article h2 {
@@ -38,6 +62,7 @@ body {
   
   .article a {
     color: #00adb5;
+    text-decoration: none;
   }
   
   .article a:hover {
@@ -49,14 +74,5 @@ body {
     padding: 10px;
     background-color: #292929;
     color: #cccccc;
-  }
-  
-  /* Additional coding.html specific styles */
-  .section-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #00adb5;
-    text-align: center;
-    margin-bottom: 20px;
   }
   
