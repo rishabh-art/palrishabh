@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>Customer Support - Rishabh Pal Articles</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="customer-support.html">Customer Support</a></li>
+        <li><a href="#">Science</a></li>
+        <!--><li><a href="#">Quotes</a></li><-->
+        <li><a href="#">Chess</a></li>
+        <li><a href="#">Coding</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">About Us</a></li>
+
+        <li id="search-icon"><i class="fas fa-search"></i></li>
+        <li class="search-bar">
+          <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="support">
+      <h2>Customer Support</h2>
+      <p>If you need any assistance or have any questions, please feel free to contact us:</p>
+      <form class="support-form" action="https://formsubmit.co/customersupport@palishabh.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality" required>
+
+        <label for="query">Query:</label>
+        <textarea id="query" name="query" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 palrishabh.com Articles. All rights reserved.</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    const searchIcon = document.getElementById('search-icon');
+    const searchBar = document.querySelector('.search-bar');
+
+    searchIcon.addEventListener('click', () => {
+      searchBar.style.display = 'block';
+      searchBar.style.animation = 'slideDown 0.5s ease-in-out forwards';
+    });
+  </script>
+</body>
+</html>
