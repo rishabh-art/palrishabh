@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>About Us - Rishabh Pal Articles</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="customer-support.html">Customer Support</a></li>
+        <li><a href="science.html">Science</a></li>
+        <!--<li><a href="#">Quotes</a></li>-->
+        <li><a href="chess.html">Chess</a></li>
+        <li><a href="coding.html">Coding</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+
+        <li id="search-icon"><i class="fas fa-search"></i></li>
+        <li class="search-bar">
+          <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search...">
+            <button type="submit">Search</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    const searchIcon = document.getElementById('search-icon');
+    const searchBar = document.querySelector('.search-bar');
+
+    searchIcon.addEventListener('click', () => {
+      searchBar.style.display = 'block';
+      searchBar.style.animation = 'slideDown 0.5s ease-in-out forwards';
+    });
+  </script>
+  <main>
+    <section class="about-us">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>At Palrishabh.com, we believe in the transformative power of education and technology, combined. Our platform is more than just a website; it's a gateway to a world of possibilities, a ground for innovative ideas and a pillar of guidance for students seeking any educational help. /p>
+        <p>In a modern world, where every part of our life is being reshaped by technology, we aim to provide free, accessible education through technologies for everyone.</p>
+        <p>When you explore our website, you'll find a wealth of learning materials, engaging articles, and interactive projects—all offered with the intention of growth and expansion of knowledge. Our commitment to keeping our platform free is from the belief that education is a transformative force capable of creating positive change in the world.</p>
+        <p>We understand that the journey of education is not only personal but also a shared progress. It's a journey that involves individuals coming together to learn, collaborate, and inspire one another. Palrishabh.com thrives on the spirit of community, and we're immensely proud of the diverse group of learners who make up our user base. We encourage skilled users and students to publish their content, or product to the curious learners out there, all for free!</p>
+        <p>While our primary goal is to provide a high-quality educational experience without any financial burden, we also recognise the value of support from our community. If you find value in the resources we offer, if you've experienced growth and help through our platform, and if you're in a position to contribute, we kindly request you to consider making a donation.</p>
+        <p>Your donation, no matter how small, can make a significant impact. It enables us to continue improving our platform, developing new content, and reaching even more learners around the world. Your support helps us keep our promise of delivering education without barriers and empowers us to extend our reach to those who may not have easy access to learning resources.</p>
+        <p>Whether you choose to donate or not, we're immensely grateful for your presence on Palrishabh.com. Your engagement, enthusiasm, and commitment to learning contribute to the vibrant learning community that we're proud to host. Every visit to our platform, every project you start, and every bit of knowledge you acquire is a step towards creating a brighter future—for yourself and for others.</p>
+        <p>Welcome, to Palrishabh.com, a free, learning platform, for everyone, around the globe, without any distinctions, or barriers. Together, let's write the chapters for the knowledge of the world...</p>
+    </div>
+      <div class="about-image">
+        <img src="about-image.jpg" alt="About Us Image">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 palrishabh.com Articles. All rights reserved.</p>
+  </footer>
+</body>
+</html>
