@@ -144,3 +144,28 @@ footer {
 .support-form button:hover {
   background-color: #ff3300;
 }
+/*Chess Article*/
+.chess-article {
+  background-color: #262626;
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+}
+
+.chess-article h2 {
+  color: #ff3300;
+}
+
+.chess-article ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.chess-article ol li {
+  margin: 10px 0;
+}
+
+.chess-article p {
+  margin: 10px 0;
+}
+
