@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mastering Chess Tactics - Rishabh Pal Articles</title>
+</head>
+<body>
+    <header>
+        <!-- Your navigation bar code here -->
+    </header>
+    <main>
+        <article class="chess-article">
+            <h1 class="article-title">Mastering Chess Tactics: A Transitioning Player's Guide</h1>
+            
+            <p>Chess is a game of strategy, and understanding various tactics is essential for transitioning from a beginner to an intermediate player. In this article, we will explore some of the most common and effective chess tactics that every chess enthusiast should know.</p>
+
+            <!-- Section 1: Double Attack -->
+            <h2>Double Attack</h2>
+            <p>Double attack, also known as a two-way attack, is a powerful tactic where a single piece simultaneously threatens two or more of your opponent's pieces or squares. This tactic can create significant advantages on the chessboard, forcing your opponent to make tough decisions.</p>
+
+            <!-- Insert Image for Double Attack (Title: "Double Attack Example") -->
+
+            <p>Understanding the principles of the double attack can lead to winning material or achieving a checkmate. Let's delve into this tactic in more detail.</p>
+
+            <!-- Section 2: Pin -->
+            <h2>Pin</h2>
+            <p>The pin is a strategic maneuver where one of your pieces (typically a rook or bishop) restricts the movement of an opponent's piece, which is then pinned to their king or another valuable piece. This tactic can immobilize your opponent's key pieces and create vulnerabilities on the board.</p>
+
+            <!-- Insert Image for Pin (Title: "Pinning Example") -->
+
+            <p>Mastering the pin can lead to opportunities for winning material and launching devastating attacks. Let's explore the intricacies of the pin.</p>
+
+            <!-- Section 3: Discovered Attack and Discovered Check -->
+            <h2>Discovered Attack and Discovered Check</h2>
+            <p>The discovered attack is a tactical gem that occurs when one piece moves, revealing an attack by another piece behind it. When the discovered move exposes your opponent's king to a threat, it becomes a discovered check, putting your opponent's king in check while attacking another piece.</p>
+
+            <!-- Insert Image for Discovered Attack (Title: "Discovered Attack Example") -->
+
+            <p>Understanding the power of discovered attacks and checks can lead to game-changing moves and decisive victories. Let's examine this tactic closely.</p>
+
+            <!-- Section 4: Trapping -->
+            <h2>Trapping</h2>
+            <p>Trapping is a tactical technique where you confine an opponent's piece in a way that it has no legal moves to escape. This tactic can result in winning the trapped piece or gaining a positional advantage.</p>
+
+            <!-- Insert Image for Trapping (Title: "Trapping Example") -->
+
+            <p>Learning how to effectively trap your opponent's pieces can tilt the game in your favor. Let's explore the art of trapping in chess.</p>
+
+            <!-- Section 5: Mate in 1, 2, and 3 -->
+            <h2>Mate in 1, 2, and 3</h2>
+            <p>Mate in 1, 2, and 3 refer to positions where you can checkmate your opponent's king in the specified number of moves. These are essential patterns to recognize, as they can lead to swift victories when the opportunity arises.</p>
+
+            <!-- Insert Image for Mate in 1 (Title: "Mate in 1 Example") -->
+            <!-- Insert Image for Mate in 2 (Title: "Mate in 2 Example") -->
+            <!-- Insert Image for Mate in 3 (Title: "Mate in 3 Example") -->
+
+            <p>Recognizing these checkmate patterns and executing them effectively can be the key to finishing games decisively. Let's take a closer look at these mate-in-X scenarios.</p>
+
+            <!-- Conclusion -->
+            <h2>Conclusion</h2>
+            <p>As a transitioning player from beginner to intermediate, mastering these common chess tactics is crucial for improving your game. Double attacks, pins, discovered attacks, trapping, and checkmate patterns are tools that can help you gain a strategic edge over your opponents.</p>
+
+            <p>By practicing these tactics and incorporating them into your games, you'll become a more formidable chess player, capable of outwitting your adversaries. Keep honing your skills, and remember that chess is not just about knowing the rules—it's about mastering the art of tactics and strategy.</p>
+
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 palrishabh.com Articles. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // Your JavaScript code here
+    </script>
+</body>
+</html>
